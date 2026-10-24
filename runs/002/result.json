@@ -1,0 +1,43 @@
+{
+  "task_id": "fnaf-track1",
+  "run": "002",
+  "parent": "001",
+  "hypothesis": "Comparing each frame to a per-camera normal reference (learned per fold from training FALSE sequences) instead of the sequence's own median will separate anomalous sequences, because frames within a sequence come from different cameras.",
+  "attempt": 1,
+  "metric": "f1",
+  "direction": "max",
+  "epsilon": 0.002,
+  "runtime_s": 64.8,
+  "cumulative_s": 64.8,
+  "budget_s": 900,
+  "log": "runs/002/attempts/01.log",
+  "best_before": {
+    "run": "001",
+    "score": 0.6742298288508557
+  },
+  "valid": true,
+  "selection_score": 0.7278825995807128,
+  "aggregation": "pooled OOF score at the OOF-selected threshold (threshold chosen on the same predictions: possible selection bias, not an independent test score)",
+  "threshold": 0.63,
+  "score_at_0.5_info_only": 0.725084618277548,
+  "precision": 0.7124487004103968,
+  "recall": 0.744,
+  "predicted_positive_rate": 0.5221428571428571,
+  "all_positive_f1_baseline": 0.6666666666666666,
+  "fold_scores": {
+    "0": 0.7177033492822966,
+    "1": 0.7610872675250357,
+    "2": 0.744475138121547,
+    "3": 0.7107093184979137,
+    "4": 0.7059659090909091
+  },
+  "fold_std_descriptive_only": 0.02375229776665694,
+  "pooled_score_info_only": 0.7278825995807128,
+  "n_scored": 7000,
+  "export_status": "ok",
+  "export_errors": [],
+  "improvement_vs_best": 0.05365277072985708,
+  "status": "ok",
+  "decision": "KEEP",
+  "scored_at": "2026-10-24T13:32:29-07:00"
+}

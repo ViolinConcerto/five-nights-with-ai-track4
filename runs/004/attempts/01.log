@@ -1,0 +1,9 @@
+[    3.6s peakRSS    848MiB] loaded train emb (7000, 10, 512)
+[    7.6s peakRSS   1235MiB] loaded test emb (8000, 10, 512)
+[    8.6s peakRSS   1587MiB] fold 0: fit 56000 frames, predict 1400 seqs 0.9s
+[   10.2s peakRSS   1704MiB] fold 1: fit 56000 frames, predict 1400 seqs 1.0s
+[   11.8s peakRSS   1782MiB] fold 2: fit 56000 frames, predict 1400 seqs 0.9s
+[   13.5s peakRSS   1782MiB] fold 3: fit 56000 frames, predict 1400 seqs 1.0s
+[   15.0s peakRSS   1860MiB] fold 4: fit 56000 frames, predict 1400 seqs 0.9s
+test_proba: 8000 rows
+[   15.8s peakRSS   1939MiB] done

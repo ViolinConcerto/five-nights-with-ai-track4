@@ -1,0 +1,31 @@
+{
+  "task_id": "track1",
+  "train_csv": "task/train.csv",
+  "test_csv": "task/test.csv",
+  "id_col": "id",
+  "label_col": "label",
+  "group_col": null,
+  "split": {"scheme": "kfold", "n_splits": 5, "seed": 42},
+  "metric": "accuracy",
+  "positive_class": null,
+  "epsilon": 0.001,
+  "max_run_seconds": 900,
+  "max_attempts_per_run": 3,
+  "exploration_deadline": "2026-10-24T13:45:00-07:00",
+  "submission": {
+    "sample_csv": "task/sample_submission.csv",
+    "id_col": "id",
+    "pred_col": "label",
+    "pred_values": "class"
+  },
+  "_notes": {
+    "split": "kfold {n_splits, seed} or holdout {val_fraction, seed}. Use the official split if one is given (write it as a holdout).",
+    "group_col": "set when rows from the same video / person / scene must stay in the same fold",
+    "metric": "accuracy | macro_f1 | weighted_f1 | roc_auc | log_loss  (selection score = mean of fold scores)",
+    "positive_class": "only for binary roc_auc; defaults to the second class in sorted order",
+    "epsilon": "practical tolerance: a candidate must beat the current best by more than this to be kept. Not a significance test.",
+    "max_run_seconds": "total wall-clock per run directory, shared by all its attempts",
+    "test_csv / sample_csv": "set to null if official test inputs are not available yet (export becomes pending_inputs)",
+    "pred_values": "class | probability"
+  }
+}

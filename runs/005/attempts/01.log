@@ -1,0 +1,9 @@
+[    3.5s peakRSS    850MiB] loaded train emb (7000, 10, 512)
+[    7.5s peakRSS   1236MiB] loaded test emb (8000, 10, 512)
+[   13.3s peakRSS   1610MiB] fold 0: bank 14000 frames (1400 FALSE seqs), clf 42000 frames, val 1400 5.8s
+[   23.7s peakRSS   1799MiB] fold 1: bank 14000 frames (1400 FALSE seqs), clf 42000 frames, val 1400 5.5s
+[   34.8s peakRSS   1917MiB] fold 2: bank 14000 frames (1400 FALSE seqs), clf 42000 frames, val 1400 5.9s
+[   46.4s peakRSS   2061MiB] fold 3: bank 14000 frames (1400 FALSE seqs), clf 42000 frames, val 1400 5.6s
+[   58.0s peakRSS   2061MiB] fold 4: bank 14000 frames (1400 FALSE seqs), clf 42000 frames, val 1400 6.3s
+test_proba: 8000 rows
+[   64.8s peakRSS   2061MiB] done

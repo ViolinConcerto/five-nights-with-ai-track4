@@ -1,0 +1,18 @@
+# large / regenerable artifacts
+cache/
+*.npy
+*.joblib
+models/
+__pycache__/
+.DS_Store
+referee/.lock
+*.bak_*
+
+# competition data and labels (regenerate with fnaf/make_task.py from the official starter kit)
+task/*.csv
+referee/frozen/labels.csv
+
+# per-run prediction dumps (only the final best/submission.csv is kept)
+*.csv
+!best/submission.csv
+!referee/frozen/split.csv

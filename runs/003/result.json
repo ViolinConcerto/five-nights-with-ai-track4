@@ -1,0 +1,43 @@
+{
+  "task_id": "fnaf-track1",
+  "run": "003",
+  "parent": "002",
+  "hypothesis": "Doubling thumbnail resolution from 24x14 to 48x28 lets the per-camera normal reference detect the small, low-contrast figures in dark views that 002 misses, raising recall without losing precision.",
+  "attempt": 1,
+  "metric": "f1",
+  "direction": "max",
+  "epsilon": 0.002,
+  "runtime_s": 137.2,
+  "cumulative_s": 137.2,
+  "budget_s": 900,
+  "log": "runs/003/attempts/01.log",
+  "best_before": {
+    "run": "002",
+    "score": 0.7278825995807128
+  },
+  "valid": true,
+  "selection_score": 0.7283107856522278,
+  "aggregation": "pooled OOF score at the OOF-selected threshold (threshold chosen on the same predictions: possible selection bias, not an independent test score)",
+  "threshold": 0.51,
+  "score_at_0.5_info_only": 0.7277866535578222,
+  "precision": 0.6438446346280448,
+  "recall": 0.8382857142857143,
+  "predicted_positive_rate": 0.651,
+  "all_positive_f1_baseline": 0.6666666666666666,
+  "fold_scores": {
+    "0": 0.7206235011990407,
+    "1": 0.7445721583652618,
+    "2": 0.7255139056831923,
+    "3": 0.7154370737755734,
+    "4": 0.7365038560411311
+  },
+  "fold_std_descriptive_only": 0.011873999857540974,
+  "pooled_score_info_only": 0.7283107856522278,
+  "n_scored": 7000,
+  "export_status": "ok",
+  "export_errors": [],
+  "improvement_vs_best": 0.0004281860715150687,
+  "status": "ok",
+  "decision": "REJECT",
+  "scored_at": "2026-10-24T13:56:39-07:00"
+}

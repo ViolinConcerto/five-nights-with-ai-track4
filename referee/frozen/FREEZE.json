@@ -1,0 +1,11 @@
+{
+  "task_id": "fnaf-track1",
+  "frozen_at": "2026-10-24T12:59:09-07:00",
+  "sha256": {
+    "referee/contract.json": "a24a4df3fad8d24d64a06558db1a6b711d0de7815a04ee911173f1ea6fc316c3",
+    "referee/runner.py": "0ed2c9d280712c1f5d884a4e8a60592083abe77df7e32cf9fa17802a9337b6dd",
+    "referee/frozen/split.csv": "8e873c2e63d3aa2eca82d832c9c8d763945425496455342a79e2ab062cc2fd11",
+    "referee/frozen/labels.csv": "d51a16fa87934b06b21dae55d2a77bba3d9f1b8c5819e5ae9d101fff1a5ccfa6",
+    "referee/frozen/classes.json": "6574d7b23d33fddd585d4c1b06560f9b0bb9e5e688f257c852f93fa3db22ee3f"
+  }
+}

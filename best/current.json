@@ -1,0 +1,8 @@
+{
+  "run": "006",
+  "score": 0.8864710093056549,
+  "metric": "f1",
+  "threshold": 0.83,
+  "export_status": "ok",
+  "promoted_at": "2026-10-24T15:15:18-07:00"
+}

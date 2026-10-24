@@ -1,0 +1,3 @@
+thumb_v2_train: 7000 rows x 13440 features in 212.5s
+thumb_v2_test: 8000 rows x 13440 features in 237.0s
+exit=0 elapsed=450s

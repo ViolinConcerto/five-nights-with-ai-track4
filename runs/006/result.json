@@ -1,0 +1,43 @@
+{
+  "task_id": "fnaf-track1",
+  "run": "006",
+  "parent": "005",
+  "hypothesis": "Replacing the linear frame scorer with a nonlinear one (HistGradientBoosting) on the same 257 frame features captures interactions between \"which view / which figure\" and \"offset from normal\" that a single linear boundary across all cameras cannot.",
+  "attempt": 1,
+  "metric": "f1",
+  "direction": "max",
+  "epsilon": 0.002,
+  "runtime_s": 98.4,
+  "cumulative_s": 98.4,
+  "budget_s": 900,
+  "log": "runs/006/attempts/01.log",
+  "best_before": {
+    "run": "005",
+    "score": 0.8731182795698925
+  },
+  "valid": true,
+  "selection_score": 0.8864710093056549,
+  "aggregation": "pooled OOF score at the OOF-selected threshold (threshold chosen on the same predictions: possible selection bias, not an independent test score)",
+  "threshold": 0.83,
+  "score_at_0.5_info_only": 0.6666666666666666,
+  "precision": 0.8883787661406026,
+  "recall": 0.8845714285714286,
+  "predicted_positive_rate": 0.49785714285714283,
+  "all_positive_f1_baseline": 0.6666666666666666,
+  "fold_scores": {
+    "0": 0.8820224719101124,
+    "1": 0.8934010152284264,
+    "2": 0.8944723618090452,
+    "3": 0.8822674418604651,
+    "4": 0.8803963198867657
+  },
+  "fold_std_descriptive_only": 0.0068264114004957955,
+  "pooled_score_info_only": 0.8864710093056549,
+  "n_scored": 7000,
+  "export_status": "ok",
+  "export_errors": [],
+  "improvement_vs_best": 0.013352729735762403,
+  "status": "ok",
+  "decision": "KEEP",
+  "scored_at": "2026-10-24T15:15:18-07:00"
+}

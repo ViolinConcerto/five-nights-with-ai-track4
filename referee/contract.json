@@ -1,0 +1,28 @@
+{
+  "task_id": "fnaf-track1",
+  "train_csv": "task/train.csv",
+  "test_csv": "task/test.csv",
+  "id_col": "sequence_id",
+  "label_col": "has_anomaly",
+  "group_col": null,
+  "split": {"scheme": "kfold", "n_splits": 5, "seed": 42},
+  "metric": "f1",
+  "positive_class": "TRUE",
+  "threshold": "oof_optimal",
+  "epsilon": 0.002,
+  "max_run_seconds": 900,
+  "max_attempts_per_run": 3,
+  "exploration_deadline": "2026-10-24T15:50:00-07:00",
+  "submission": {
+    "sample_csv": "task/sample_submission.csv",
+    "id_col": "sequence_id",
+    "pred_col": "has_anomaly",
+    "pred_values": "class"
+  },
+  "_notes": {
+    "metric": "F1 of the anomalous class (TRUE), the official Track 1 metric",
+    "threshold": "the runner picks one threshold on pooled out-of-fold probabilities (0.01 grid) and applies the same threshold to test_proba.csv to write submission.csv. The threshold is chosen on the same OOF predictions it is scored on: selection bias of unknown size, same procedure for every candidate.",
+    "max_run_seconds": "per run, for training on cached features. Label-free feature extraction runs outside the runner (see PROTOCOL.md).",
+    "exploration_deadline": "competition ends 16:00; 15:00-15:45 is for final checks and the last upload"
+  }
+}

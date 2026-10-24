@@ -1,0 +1,20 @@
+r18emb_v1_train: 7000 rows x 5120 in 500.5s (embed 271.8s)
+r18emb_v1_test: 8000 rows x 5120 in 378.4s (embed 305.9s)
+      882.12 real       843.79 user       184.04 sys
+          4963205120  maximum resident set size
+                   0  average shared memory size
+                   0  average unshared data size
+                   0  average unshared stack size
+            19682488  page reclaims
+                 215  page faults
+                   0  swaps
+                   0  block input operations
+                   0  block output operations
+                   0  messages sent
+                   0  messages received
+                   0  signals received
+             1228967  voluntary context switches
+             4709303  involuntary context switches
+       1390206863474  instructions retired
+        486684651933  cycles elapsed
+          6862550720  peak memory footprint

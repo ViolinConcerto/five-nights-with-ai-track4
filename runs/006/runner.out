@@ -1,0 +1,1 @@
+RESULT fnaf-track1/006: decision=KEEP f1=0.8865 (fold std 0.0068) threshold=0.83 at0.5=0.6667 P=0.888 R=0.885 flagged=49.8% all_TRUE_f1=0.667 best_before=0.8731 (005) export=ok runtime=98.4s

@@ -1,0 +1,34 @@
+[    2.8s peakRSS    955MiB] loaded train thumbs (7000, 10, 336)
+[    5.2s peakRSS   1349MiB] loaded test thumbs (8000, 10, 336)
+[    6.6s peakRSS   1403MiB] fold 0: KMeans on 14000 ref frames (1400 FALSE seqs) 1.4s
+[    6.9s peakRSS   1403MiB] fold 0: reference median/MAD 0.3s cluster sizes [1241, 1333, 1211, 2765, 1339, 1225, 1188, 1297, 1094, 1307]
+[    8.3s peakRSS   1464MiB] fold 0: features train 4200 / val 1400 1.3s
+[   15.4s peakRSS   1466MiB] fold 0: classifier fit+predict 7.1s
+[   16.9s peakRSS   1671MiB] fold 0: test features+predict 1.5s
+fold 0: ref 1400 / fit 4200 / predict 1400
+[   17.8s peakRSS   1674MiB] fold 1: KMeans on 14000 ref frames (1400 FALSE seqs) 0.9s
+[   18.0s peakRSS   1677MiB] fold 1: reference median/MAD 0.2s cluster sizes [1233, 1472, 1271, 1182, 1372, 1269, 2601, 1311, 1168, 1121]
+[   18.8s peakRSS   1677MiB] fold 1: features train 4200 / val 1400 0.8s
+[   26.8s peakRSS   1678MiB] fold 1: classifier fit+predict 8.0s
+[   28.0s peakRSS   1678MiB] fold 1: test features+predict 1.2s
+fold 1: ref 1400 / fit 4200 / predict 1400
+[   29.0s peakRSS   1678MiB] fold 2: KMeans on 14000 ref frames (1400 FALSE seqs) 1.0s
+[   29.2s peakRSS   1678MiB] fold 2: reference median/MAD 0.2s cluster sizes [1138, 1438, 1288, 1309, 1217, 2722, 1235, 1228, 1235, 1190]
+[   30.0s peakRSS   1678MiB] fold 2: features train 4200 / val 1400 0.7s
+[   36.8s peakRSS   1678MiB] fold 2: classifier fit+predict 6.9s
+[   38.3s peakRSS   1678MiB] fold 2: test features+predict 1.4s
+fold 2: ref 1400 / fit 4200 / predict 1400
+[   39.3s peakRSS   1678MiB] fold 3: KMeans on 14000 ref frames (1400 FALSE seqs) 1.0s
+[   39.5s peakRSS   1678MiB] fold 3: reference median/MAD 0.2s cluster sizes [1077, 1295, 1249, 1393, 1268, 1237, 1359, 1184, 1150, 2788]
+[   40.3s peakRSS   1678MiB] fold 3: features train 4200 / val 1400 0.8s
+[   47.0s peakRSS   1678MiB] fold 3: classifier fit+predict 6.7s
+[   48.5s peakRSS   1678MiB] fold 3: test features+predict 1.4s
+fold 3: ref 1400 / fit 4200 / predict 1400
+[   49.7s peakRSS   1678MiB] fold 4: KMeans on 14000 ref frames (1400 FALSE seqs) 1.2s
+[   50.0s peakRSS   1678MiB] fold 4: reference median/MAD 0.3s cluster sizes [1119, 1331, 1285, 1214, 1375, 1137, 2722, 1354, 1215, 1248]
+[   51.0s peakRSS   1678MiB] fold 4: features train 4200 / val 1400 1.0s
+[   60.4s peakRSS   1678MiB] fold 4: classifier fit+predict 9.4s
+[   61.7s peakRSS   1678MiB] fold 4: test features+predict 1.3s
+fold 4: ref 1400 / fit 4200 / predict 1400
+test_proba: 8000 rows
+[   61.7s peakRSS   1678MiB] done

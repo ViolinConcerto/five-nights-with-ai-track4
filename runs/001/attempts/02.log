@@ -1,0 +1,6 @@
+fold 0: fit 5600 / predict 1400
+fold 1: fit 5600 / predict 1400
+fold 2: fit 5600 / predict 1400
+fold 3: fit 5600 / predict 1400
+fold 4: fit 5600 / predict 1400
+test_proba: 8000 rows

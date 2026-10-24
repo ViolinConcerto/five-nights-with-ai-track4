@@ -1,0 +1,2 @@
+RESULT fnaf-track1/003: decision=REJECT f1=0.7283 (fold std 0.0119) threshold=0.51 at0.5=0.7278 P=0.644 R=0.838 flagged=65.1% all_TRUE_f1=0.667 best_before=0.7279 (002) export=ok runtime=137.2s
+exit=0 elapsed=140s

@@ -1,0 +1,43 @@
+{
+  "task_id": "fnaf-track1",
+  "run": "004",
+  "parent": "002",
+  "hypothesis": "Anomalies are semantic (an animatronic doing something it shouldn't), so frozen pretrained ImageNet CNN embeddings per frame plus a supervised frame scorer max-pooled over the sequence will separate classes far better than pixel deviation from a background reference.",
+  "attempt": 1,
+  "metric": "f1",
+  "direction": "max",
+  "epsilon": 0.002,
+  "runtime_s": 17.6,
+  "cumulative_s": 17.6,
+  "budget_s": 900,
+  "log": "runs/004/attempts/01.log",
+  "best_before": {
+    "run": "002",
+    "score": 0.7278825995807128
+  },
+  "valid": true,
+  "selection_score": 0.852610325930199,
+  "aggregation": "pooled OOF score at the OOF-selected threshold (threshold chosen on the same predictions: possible selection bias, not an independent test score)",
+  "threshold": 0.69,
+  "score_at_0.5_info_only": 0.6928868634832573,
+  "precision": 0.8608037274315666,
+  "recall": 0.8445714285714285,
+  "predicted_positive_rate": 0.49057142857142855,
+  "all_positive_f1_baseline": 0.6666666666666666,
+  "fold_scores": {
+    "0": 0.8391708363116511,
+    "1": 0.8688760806916427,
+    "2": 0.8585931834662799,
+    "3": 0.8471615720524017,
+    "4": 0.8493543758967002
+  },
+  "fold_std_descriptive_only": 0.011415747810033811,
+  "pooled_score_info_only": 0.852610325930199,
+  "n_scored": 7000,
+  "export_status": "ok",
+  "export_errors": [],
+  "improvement_vs_best": 0.12472772634948626,
+  "status": "ok",
+  "decision": "KEEP",
+  "scored_at": "2026-10-24T14:55:28-07:00"
+}
